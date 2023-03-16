@@ -1,21 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - program that prints the size of various types on the computer
- *
- * return: Always return 0 (Success)
+ *main - Entry Point
+ *-----------------------------------------------------------------------------
+ *Create Variables
+ *-----------------------------------------------------------------------------
+ *Use the sizeof operator to operate the size of the variables
+ *Return: 0
  */
+
 int main(void)
 {
-	char a;
-	int b;
-	long int x;
-	long long int y;
-	float z;
+	char charType;
+	int intType;
+	long int longIntType;
+	long long int longLongIntType;
+	float floatType;
 
-printf("Size of a char: %lu byte(s)\n", (unsigned int)sizeof(a));
-printf("Size of a int: %lu byte(s)\n", (unsigned int)sizeof(b));
-printf("Size of a long int: %lu byte(s)\n", (unsigned int)sizeof(x));
-printf("Size of a long long int: %lu byte(s)\n", (unsigned int)sizeof(y));
-printf("Size of a float: %lu byte(s)\n", (unsigned int)sizeof(z));
-return (0);
+	printf("Size of a char: %ld byte(s)\n", sizeof(charType));
+	printf("Size of an int: %ld byte(s)\n", sizeof(intType));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(longIntType));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(longLongIntType));
+	printf("Size of a float: %ld byte(s)\n", sizeof(floatType));
+	return (0);
 }
