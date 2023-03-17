@@ -6,15 +6,15 @@
 
 int main(void)
 {
-	char ch = 'a'
+	char z = 'a';
 
-while (ch <= 'z')
+while (z <= 'z')
 {
-	if (ch != q && ch != e)
+	if (z != q && z != e)
 	{
 		putchar(ch)
 	}
-	ch++
+	z++
 }
 	return (0);
 }
