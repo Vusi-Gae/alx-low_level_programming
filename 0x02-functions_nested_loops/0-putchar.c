@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - print statement followed by a new line
- * return: Always return 0(Success)
+ * main - A print statement followed by a new line
+ * return: Always return 0 (Success)
  */
 
 int main(void)
