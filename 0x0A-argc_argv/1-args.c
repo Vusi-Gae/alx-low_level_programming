@@ -8,7 +8,7 @@
  * Return: Alwasy 0 ( Success)
  */
 
-int main(int argc, __attribute__((unused)) char *argv[])
+int main(int args, __attribute__((unused)) char *argv[])
 {
 	int i;
 
