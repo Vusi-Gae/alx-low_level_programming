@@ -3,15 +3,15 @@
 #include "main.h"
 
 /**
- * main - A  function that creates an array of chars,
- * 	  and initializes it with a specific char.
+ * create_array - A  function that creates an array of chars,
+ *		and initializes it with a specific char.
  * @size: unsigned int type
- * @s: char type
- * 
+ * @c: char type
+ *
  * Return: Pointer to the array, or 0 if it fails
  */
 
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *s;
