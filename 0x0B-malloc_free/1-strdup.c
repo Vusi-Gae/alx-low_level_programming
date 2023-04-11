@@ -36,9 +36,9 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	size = _strlen(str) + 1;
-	ptr = malloc(size * siezeof(char));
+	ptr = malloc(size * sizeof(char));
 
-	x = 0;
+	i = 0;
 	while (x < size)
 	{
 		if (ptr == NULL)
