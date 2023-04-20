@@ -14,7 +14,7 @@
  *         a data type corresponding to symbol.
  */
 
-type struct printer
+typedef struct printer
 {
 	char *symbol;
 	void (*print)(va_list arg);
