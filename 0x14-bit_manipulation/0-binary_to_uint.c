@@ -11,7 +11,7 @@ unsigned int binary_to_unit(const char *b)
 
 {
 	unsigned int number = 0;
-	unsigned int multipleie = 1;
+	unsigned int multipleir = 1;
 	int length;
 
 	if (number == '\0')
