@@ -6,12 +6,12 @@
  * Return: If big-endian - 0.
  *         If little-endian - 1.
  */
-int gett_endianness(void)
+int get_endianness(void)
 {
 	int num = 1;
-	char *endianness = (char *)&num;
+	char *endian = (char *)&num;
 
-	if (*endianness == 1)
+	if (*endian == 1)
 		return (1);
 
 	return (0);
