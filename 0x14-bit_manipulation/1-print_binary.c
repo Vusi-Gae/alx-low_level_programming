@@ -2,7 +2,7 @@
 
 /**
  * print_binary - Func that prints binary representation of a number.
- * @: No to be printed in binary
+ * @n: No to be printed in binary
  */
 
 void print_binary(unsigned long int n)
