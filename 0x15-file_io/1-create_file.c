@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - Func that creates a file.
+ * create_file - Func creates a file.
  * @filename: Ptr to the name of the file to create.
  * @text_content: Ptr to a string to write to the file.
  *

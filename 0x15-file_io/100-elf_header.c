@@ -41,7 +41,7 @@ void check_elf(unsigned char *e_ident)
 }
 
 /**
- * print_magic - Func prints the magic numbers of an ELF header.
+ * print_magic - Func print the magic numbers of an ELF header.
  * @e_ident: Ptr to an array containing the ELF magic numbers.
  *
  * Description: Magic numbers are separated by spaces.

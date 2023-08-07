@@ -6,7 +6,7 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * create_buffer - Func that allocate 1024 bytes for a buf.
+ * create_buffer - Func allocate 1024 bytes for a buf.
  * @file: Name of the file buf is storing chars for.
  *
  * Return: Ptr to the newly-allocated buffer.
